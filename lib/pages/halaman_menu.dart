@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'halaman_tujuan.dart';
 
-class HalamanHome extends StatelessWidget {
-  const HalamanHome({super.key});
+class HalamanMenu extends StatelessWidget {
+  const HalamanMenu({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -96,6 +96,7 @@ class HalamanHome extends StatelessWidget {
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
+
                         Container(
                           width: 64,
                           height: 64,
